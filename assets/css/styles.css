@@ -22,6 +22,7 @@
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --profile-color: hsl(var(--hue-color), 69%, 65%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -298,8 +299,8 @@ img {
 }
 
 .home__blob {
-  width: 200px;
-  fill: var(--first-color);
+  width: 220px;
+  fill: var(--profile-color);
 }
 
 .home__blob-img {
